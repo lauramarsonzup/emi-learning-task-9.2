@@ -7,19 +7,51 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5846DE8D288ED58800DF985F /* TecnologiaViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5846DE8C288ED58800DF985F /* TecnologiaViewCell.swift */; };
+		5846DE8F288EE59C00DF985F /* Alert+UIViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5846DE8E288EE59C00DF985F /* Alert+UIViewController.swift */; };
+		5846DE92288EF33800DF985F /* NovaTecnologiaViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5846DE91288EF33800DF985F /* NovaTecnologiaViewController.swift */; };
+		5881AC52288B1C8E00F9A9CC /* AspectFillInFrame+UIImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5881AC51288B1C8E00F9A9CC /* AspectFillInFrame+UIImageView.swift */; };
+		5881AC55288B1CB700F9A9CC /* Theme.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5881AC54288B1CB700F9A9CC /* Theme.swift */; };
+		5881AC58288B1EAF00F9A9CC /* Livro.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5881AC57288B1EAF00F9A9CC /* Livro.swift */; };
+		5881AC5A288B1EC300F9A9CC /* Autor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5881AC59288B1EC300F9A9CC /* Autor.swift */; };
+		5881AC5D288B1EF500F9A9CC /* AutoresAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5881AC5C288B1EF500F9A9CC /* AutoresAPI.swift */; };
+		5881AC5F288B1F0500F9A9CC /* LivrosAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5881AC5E288B1F0500F9A9CC /* LivrosAPI.swift */; };
+		5881AC63288B1F6E00F9A9CC /* ListaDeItensHorizontal.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5881AC62288B1F6E00F9A9CC /* ListaDeItensHorizontal.swift */; };
+		5881AC65288B1F9500F9A9CC /* TableSectionHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5881AC64288B1F9500F9A9CC /* TableSectionHeaderView.swift */; };
+		5881AC6B288B240E00F9A9CC /* AutoresListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5881AC6A288B240E00F9A9CC /* AutoresListViewController.swift */; };
+		5881AC6E288B243B00F9A9CC /* AutorTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5881AC6D288B243B00F9A9CC /* AutorTableViewCell.swift */; };
+		5881AC70288B246600F9A9CC /* NovoAutorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5881AC6F288B246600F9A9CC /* NovoAutorViewController.swift */; };
+		5881AC72288B248700F9A9CC /* AutorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5881AC71288B248700F9A9CC /* AutorViewController.swift */; };
+		5881AC75288B24BF00F9A9CC /* AutorTableHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5881AC74288B24BF00F9A9CC /* AutorTableHeaderView.swift */; };
+		5881AC77288B24E400F9A9CC /* LivroDoAutorTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5881AC76288B24E400F9A9CC /* LivroDoAutorTableViewCell.swift */; };
 		58C67259288B0ECF00E8FD01 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58C67258288B0ECF00E8FD01 /* AppDelegate.swift */; };
 		58C6725B288B0ECF00E8FD01 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58C6725A288B0ECF00E8FD01 /* SceneDelegate.swift */; };
-		58C6725D288B0ECF00E8FD01 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58C6725C288B0ECF00E8FD01 /* ViewController.swift */; };
 		58C67260288B0ECF00E8FD01 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 58C6725E288B0ECF00E8FD01 /* Main.storyboard */; };
 		58C67262288B0ED200E8FD01 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 58C67261288B0ED200E8FD01 /* Assets.xcassets */; };
 		58C67265288B0ED200E8FD01 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 58C67263288B0ED200E8FD01 /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		5846DE8C288ED58800DF985F /* TecnologiaViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TecnologiaViewCell.swift; sourceTree = "<group>"; };
+		5846DE8E288EE59C00DF985F /* Alert+UIViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Alert+UIViewController.swift"; sourceTree = "<group>"; };
+		5846DE91288EF33800DF985F /* NovaTecnologiaViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NovaTecnologiaViewController.swift; sourceTree = "<group>"; };
+		5881AC51288B1C8E00F9A9CC /* AspectFillInFrame+UIImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "AspectFillInFrame+UIImageView.swift"; sourceTree = "<group>"; };
+		5881AC54288B1CB700F9A9CC /* Theme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Theme.swift; sourceTree = "<group>"; };
+		5881AC57288B1EAF00F9A9CC /* Livro.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Livro.swift; sourceTree = "<group>"; };
+		5881AC59288B1EC300F9A9CC /* Autor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Autor.swift; sourceTree = "<group>"; };
+		5881AC5C288B1EF500F9A9CC /* AutoresAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AutoresAPI.swift; sourceTree = "<group>"; };
+		5881AC5E288B1F0500F9A9CC /* LivrosAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LivrosAPI.swift; sourceTree = "<group>"; };
+		5881AC62288B1F6E00F9A9CC /* ListaDeItensHorizontal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListaDeItensHorizontal.swift; sourceTree = "<group>"; };
+		5881AC64288B1F9500F9A9CC /* TableSectionHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableSectionHeaderView.swift; sourceTree = "<group>"; };
+		5881AC6A288B240E00F9A9CC /* AutoresListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AutoresListViewController.swift; sourceTree = "<group>"; };
+		5881AC6D288B243B00F9A9CC /* AutorTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AutorTableViewCell.swift; sourceTree = "<group>"; };
+		5881AC6F288B246600F9A9CC /* NovoAutorViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NovoAutorViewController.swift; sourceTree = "<group>"; };
+		5881AC71288B248700F9A9CC /* AutorViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AutorViewController.swift; sourceTree = "<group>"; };
+		5881AC74288B24BF00F9A9CC /* AutorTableHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AutorTableHeaderView.swift; sourceTree = "<group>"; };
+		5881AC76288B24E400F9A9CC /* LivroDoAutorTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LivroDoAutorTableViewCell.swift; sourceTree = "<group>"; };
 		58C67255288B0ECF00E8FD01 /* LearningTask-9.2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "LearningTask-9.2.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		58C67258288B0ECF00E8FD01 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		58C6725A288B0ECF00E8FD01 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		58C6725C288B0ECF00E8FD01 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		58C6725F288B0ECF00E8FD01 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		58C67261288B0ED200E8FD01 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		58C67264288B0ED200E8FD01 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -37,6 +69,142 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		5846DE8B288ED56800DF985F /* View */ = {
+			isa = PBXGroup;
+			children = (
+				5846DE8C288ED58800DF985F /* TecnologiaViewCell.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		5846DE90288EF31500DF985F /* NovaTecnologia */ = {
+			isa = PBXGroup;
+			children = (
+				5846DE91288EF33800DF985F /* NovaTecnologiaViewController.swift */,
+			);
+			path = NovaTecnologia;
+			sourceTree = "<group>";
+		};
+		5881AC4F288B1C7300F9A9CC /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				5881AC50288B1C7900F9A9CC /* Extensions */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		5881AC50288B1C7900F9A9CC /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				5881AC51288B1C8E00F9A9CC /* AspectFillInFrame+UIImageView.swift */,
+				5846DE8E288EE59C00DF985F /* Alert+UIViewController.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		5881AC53288B1C9C00F9A9CC /* Supportive Files */ = {
+			isa = PBXGroup;
+			children = (
+				58C67258288B0ECF00E8FD01 /* AppDelegate.swift */,
+				58C6725A288B0ECF00E8FD01 /* SceneDelegate.swift */,
+				5881AC54288B1CB700F9A9CC /* Theme.swift */,
+				58C67263288B0ED200E8FD01 /* LaunchScreen.storyboard */,
+				58C67266288B0ED200E8FD01 /* Info.plist */,
+			);
+			name = "Supportive Files";
+			sourceTree = "<group>";
+		};
+		5881AC56288B1E9B00F9A9CC /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				5881AC59288B1EC300F9A9CC /* Autor.swift */,
+				5881AC57288B1EAF00F9A9CC /* Livro.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		5881AC5B288B1ED600F9A9CC /* API */ = {
+			isa = PBXGroup;
+			children = (
+				5881AC5C288B1EF500F9A9CC /* AutoresAPI.swift */,
+				5881AC5E288B1F0500F9A9CC /* LivrosAPI.swift */,
+			);
+			path = API;
+			sourceTree = "<group>";
+		};
+		5881AC60288B1F3000F9A9CC /* View */ = {
+			isa = PBXGroup;
+			children = (
+				58C6725E288B0ECF00E8FD01 /* Main.storyboard */,
+				5881AC61288B1F5400F9A9CC /* Componentes */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		5881AC61288B1F5400F9A9CC /* Componentes */ = {
+			isa = PBXGroup;
+			children = (
+				5881AC62288B1F6E00F9A9CC /* ListaDeItensHorizontal.swift */,
+				5881AC64288B1F9500F9A9CC /* TableSectionHeaderView.swift */,
+			);
+			path = Componentes;
+			sourceTree = "<group>";
+		};
+		5881AC66288B23D300F9A9CC /* Scenes */ = {
+			isa = PBXGroup;
+			children = (
+				5881AC67288B23E200F9A9CC /* Autores */,
+				5881AC68288B23E700F9A9CC /* NovoAutor */,
+				5881AC69288B23F100F9A9CC /* Autor */,
+				5846DE90288EF31500DF985F /* NovaTecnologia */,
+			);
+			path = Scenes;
+			sourceTree = "<group>";
+		};
+		5881AC67288B23E200F9A9CC /* Autores */ = {
+			isa = PBXGroup;
+			children = (
+				5881AC6A288B240E00F9A9CC /* AutoresListViewController.swift */,
+				5881AC6C288B241200F9A9CC /* View */,
+			);
+			path = Autores;
+			sourceTree = "<group>";
+		};
+		5881AC68288B23E700F9A9CC /* NovoAutor */ = {
+			isa = PBXGroup;
+			children = (
+				5881AC6F288B246600F9A9CC /* NovoAutorViewController.swift */,
+				5846DE8B288ED56800DF985F /* View */,
+			);
+			path = NovoAutor;
+			sourceTree = "<group>";
+		};
+		5881AC69288B23F100F9A9CC /* Autor */ = {
+			isa = PBXGroup;
+			children = (
+				5881AC71288B248700F9A9CC /* AutorViewController.swift */,
+				5881AC73288B249F00F9A9CC /* View */,
+			);
+			path = Autor;
+			sourceTree = "<group>";
+		};
+		5881AC6C288B241200F9A9CC /* View */ = {
+			isa = PBXGroup;
+			children = (
+				5881AC6D288B243B00F9A9CC /* AutorTableViewCell.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		5881AC73288B249F00F9A9CC /* View */ = {
+			isa = PBXGroup;
+			children = (
+				5881AC74288B24BF00F9A9CC /* AutorTableHeaderView.swift */,
+				5881AC76288B24E400F9A9CC /* LivroDoAutorTableViewCell.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
 		58C6724C288B0ECF00E8FD01 = {
 			isa = PBXGroup;
 			children = (
@@ -56,13 +224,13 @@
 		58C67257288B0ECF00E8FD01 /* LearningTask-9.2 */ = {
 			isa = PBXGroup;
 			children = (
-				58C67258288B0ECF00E8FD01 /* AppDelegate.swift */,
-				58C6725A288B0ECF00E8FD01 /* SceneDelegate.swift */,
-				58C6725C288B0ECF00E8FD01 /* ViewController.swift */,
-				58C6725E288B0ECF00E8FD01 /* Main.storyboard */,
+				5881AC53288B1C9C00F9A9CC /* Supportive Files */,
 				58C67261288B0ED200E8FD01 /* Assets.xcassets */,
-				58C67263288B0ED200E8FD01 /* LaunchScreen.storyboard */,
-				58C67266288B0ED200E8FD01 /* Info.plist */,
+				5881AC4F288B1C7300F9A9CC /* Common */,
+				5881AC5B288B1ED600F9A9CC /* API */,
+				5881AC56288B1E9B00F9A9CC /* Models */,
+				5881AC60288B1F3000F9A9CC /* View */,
+				5881AC66288B23D300F9A9CC /* Scenes */,
 			);
 			path = "LearningTask-9.2";
 			sourceTree = "<group>";
@@ -138,8 +306,24 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				58C6725D288B0ECF00E8FD01 /* ViewController.swift in Sources */,
+				5881AC70288B246600F9A9CC /* NovoAutorViewController.swift in Sources */,
+				5846DE8F288EE59C00DF985F /* Alert+UIViewController.swift in Sources */,
+				5881AC5D288B1EF500F9A9CC /* AutoresAPI.swift in Sources */,
+				5881AC5F288B1F0500F9A9CC /* LivrosAPI.swift in Sources */,
+				5881AC63288B1F6E00F9A9CC /* ListaDeItensHorizontal.swift in Sources */,
+				5881AC72288B248700F9A9CC /* AutorViewController.swift in Sources */,
+				5881AC77288B24E400F9A9CC /* LivroDoAutorTableViewCell.swift in Sources */,
+				5881AC58288B1EAF00F9A9CC /* Livro.swift in Sources */,
+				5881AC5A288B1EC300F9A9CC /* Autor.swift in Sources */,
+				5881AC6E288B243B00F9A9CC /* AutorTableViewCell.swift in Sources */,
+				5881AC65288B1F9500F9A9CC /* TableSectionHeaderView.swift in Sources */,
 				58C67259288B0ECF00E8FD01 /* AppDelegate.swift in Sources */,
+				5881AC6B288B240E00F9A9CC /* AutoresListViewController.swift in Sources */,
+				5846DE8D288ED58800DF985F /* TecnologiaViewCell.swift in Sources */,
+				5881AC75288B24BF00F9A9CC /* AutorTableHeaderView.swift in Sources */,
+				5881AC55288B1CB700F9A9CC /* Theme.swift in Sources */,
+				5881AC52288B1C8E00F9A9CC /* AspectFillInFrame+UIImageView.swift in Sources */,
+				5846DE92288EF33800DF985F /* NovaTecnologiaViewController.swift in Sources */,
 				58C6725B288B0ECF00E8FD01 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
