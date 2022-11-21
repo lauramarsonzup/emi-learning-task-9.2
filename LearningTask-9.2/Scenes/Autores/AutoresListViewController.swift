@@ -8,6 +8,11 @@
 import UIKit
 
 class AutoresListViewController: UITableViewController {
+    
+    enum SegueType: String {
+        case verDetalhesDoAutorSegue
+        case verFormNovoAutorSegue
+    }
 
     var autorAPI: AutoresAPI?
     var livrosAPI: LivrosAPI?
@@ -39,15 +44,33 @@ class AutoresListViewController: UITableViewController {
     }
 
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        guard segue.identifier == "verDetalhesDoAutorSegue" else { return }
-    
-        guard let celula = sender as? AutorTableViewCell,
-              let autorViewController = segue.destination as? AutorViewController else {
-            fatalError("Não foi possível executar segue \(segue.identifier!)")
+        guard let identifier = segue.identifier, let segueType = SegueType(rawValue: identifier) else { return }
+        
+        switch segueType {
+        case .verDetalhesDoAutorSegue:
+            guard let celula = sender as? AutorTableViewCell,
+                  let autorViewController = segue.destination as? AutorViewController else {
+                fatalError("Não foi possível executar segue \(segue.identifier!)")
+            }
+        
+            autorViewController.livrosAPI = livrosAPI
+            autorViewController.autor = celula.autor
+            
+        case .verFormNovoAutorSegue:
+            guard let novoAutorViewController = segue.destination as? NovoAutorViewController else {
+                fatalError("Não foi possível executar segue \(segue.identifier!)")
+            }
+            
+            novoAutorViewController.delegate = self
         }
     
-        autorViewController.livrosAPI = livrosAPI
-        autorViewController.autor = celula.autor
+    }
+    
+}
+
+extension AutoresListViewController: NovoAutorViewControllerDelegate {
+    func novoAutorViewControllerDelegate(_ controller: NovoAutorViewController, adicionou autor: Autor) {
+        autores.append(autor)
     }
     
 }

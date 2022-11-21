@@ -7,6 +7,10 @@
 
 import UIKit
 
+protocol NovoAutorViewControllerDelegate: AnyObject {
+    func novoAutorViewControllerDelegate(_ controller: NovoAutorViewController, adicionou autor: Autor)
+}
+
 class NovoAutorViewController: UIViewController {
 
     typealias MensagemDeValidacao = String
@@ -16,6 +20,8 @@ class NovoAutorViewController: UIViewController {
     @IBOutlet weak var bioTextField: UITextField!
     @IBOutlet weak var tecnologiasTableView: UITableView!
     
+    weak var delegate: NovoAutorViewControllerDelegate?
+    
     var tecnologias: [String] = [] {
         didSet {
             tecnologiasTableView.reloadData()
@@ -24,6 +30,16 @@ class NovoAutorViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
+    }
+    
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        guard segue.identifier == "verCampoNovaTecnologiaSegue" else { return }
+        
+        guard let destinationController = segue.destination as? NovaTecnologiaViewController else {
+            fatalError("Não foi possível preparar para segue \(segue.identifier!)")
+        }
+        
+        destinationController.delegate = self
     }
 
     @IBAction func botaoSalvarPressionado(_ sender: UIButton) {
@@ -73,9 +89,18 @@ class NovoAutorViewController: UIViewController {
     }
     
     func cadastraAutor() {
-       // lógica vai aqui
+        let nomeAutor = separa(nomeDeAutor: nomeTextField.text!)
+        let novoAutor = Autor(foto: fotoTextField.text!, nome: nomeAutor.0, sobrenome: nomeAutor.1, bio: bioTextField.text!, tecnologias: tecnologias)
+        delegate?.novoAutorViewControllerDelegate(self, adicionou: novoAutor)
+        dismiss(animated: true)
     }
 
+}
+
+extension NovoAutorViewController: NovaTecnologiaViewControllerDelegate {
+    func novaTecnologiaViewControllerDelegate(_ controller: NovaTecnologiaViewController, adicionou tecnologia: String) {
+        tecnologias.append(tecnologia)
+    }
 }
 
 extension NovoAutorViewController: UITableViewDataSource {
